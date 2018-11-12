@@ -10,12 +10,18 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  padding: 0 .5rem;
+  line-height: 1.3rem;
 }
 
 article {
@@ -36,14 +42,35 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.5rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  text-align: left;
+  margin: 1.5rem 0 1.8rem;
+  padding: 0;
 }
 
 .quote {
   color: #999;
+}
+
+h1 {
+  margin: 1.7rem 0 .25rem;
+}
+
+p {
+  margin: 0 0 1.3rem;
+}
+
+header {
+  margin: 0 0 1.3rem;
+}
+
+ol {
+  margin-left: -1.5rem;
+  margin-bottom: 1.5rem;
 }
